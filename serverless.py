@@ -28,7 +28,7 @@ def pixel():
         #myTeamsMessage.send()  
         return send_file('warning.png', mimetype='image/png',as_attachment=False)
     else:
-        return send_file('2be-safe.png', mimetype='image/png',as_attachment=False) 
+        return send_file('safe.png', mimetype='image/png',as_attachment=False) 
 
 def main():
         app.run(debug=True)
