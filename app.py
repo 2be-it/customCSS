@@ -12,8 +12,7 @@ allowed_referers = [
         'login.microsoft.com',
         'autologon.microsoftazuread-sso.com',
         'tasks.office.com',
-        'login.windows.net',
-        'm365.cloud.microsoft']
+        'login.windows.net']
 app = Flask(__name__)
 
 def get_public_ip():
